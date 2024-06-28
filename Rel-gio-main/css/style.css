@@ -1,0 +1,75 @@
+@font-face{
+    font-family: painted;
+    src: url(../japan_wave.zip);
+}
+
+*{
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: japan;
+
+}
+
+body {
+   
+    background: linear-gradient(120deg,#b3a3ba, #8d769a, #68507b,#46315c); 
+   height: 100vh;
+
+   display: grid;
+   place-items: center;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.relogio{
+    background: transparent;
+    width: 90%;
+    padding: 3% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 8px 10px #00000070;
+    border-radius: 5px;
+}
+
+.relogio div{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #00000034;
+    box-shadow: 5px 5px 15px #000000bd;
+    margin: 2%;
+    padding: 3%;
+}
+
+.relogio span{
+
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+.relogio span.tempo{
+    font-size: .8rem;
+}
+
+@media (max-width: 500px){
+    .relogio{
+        flex-direction: column;
+        width: 60%;
+    }
+}

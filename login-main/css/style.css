@@ -1,0 +1,136 @@
+/* RESET GERAL */
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: 323232;
+border: none;    
+}
+
+body{
+    height: 100vh;
+    background: url("../Lilac\ image.jpg") center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+a{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #edcfd3;
+}
+
+/* CONTAINER LOGIN */
+#login-container{
+  background-color: #fff;
+  width: 25rem;
+ padding: 1.25rem 1.8rem;
+ border-radius: 20px;
+ text-align: center;
+}
+/* FORMULÁRIO */
+
+label,input{
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #e5d9f2;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+   border-bottom: 2px solid #ebd8d0; 
+}
+#forgot-pass{
+display: block;
+text-align: right;
+
+}
+
+input[type="submit"]{
+    background-color: #e5d9f2;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+   margin: 1.8rem auto 0;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 40%;
+}
+
+    input[type="submit"]:hover{
+        background-color: #aa9ced;
+        width: 100%;
+        transition: width 1.5s;
+    }
+
+     /*SOCIAL CONTAINER*/
+
+     #social-container, #social-container p{
+        margin-bottom: 1.25rem;
+        margin-top: 1.25rem;
+     }
+
+    #social-container i {
+       
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    #social-container a, a:hover {
+        color: transpar;
+    }
+    
+    .fa-facebook-f{
+     background-color: #1f7bf2;
+    }
+
+    .fa-linkedin{
+      background-color: #086b96; 
+    }
+
+    .fa-instagram{
+        background: linear-gradient(#4d52d8, #8239c0, #811faa, #dc0d99, #fe3f5c, #fe653a, #fe6e22, #fec054, #feda73);
+    }
+
+    .fa-whatsapp{
+        background: linear-gradient(to bottom, #5ff475, #38c33a);
+    }
+
+    #register-container p{
+       padding-bottom:  .8rem;
+}
+
+#register-container a{
+        padding-bottom: .8rem;
+}
+
+#login-container{
+    color: #8068a5;
+}
